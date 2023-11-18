@@ -1,6 +1,6 @@
 <?php
 $databaseHost = 'localhost';
-$databaseName = 'praktikum2022';
+$databaseName = 'db_stmj';
 $databaseUsername = 'root';
 $databasePassword = '';
 
