@@ -371,45 +371,4 @@
 
 
 
-<div class="row">
-  <div class="col">
-    <div class="card shadow mb-4">
-      <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-        <h6 class="m-0 font-weight-bold text-primary">Materi Praktikum</h6>
-
-      </div>
-      <div class="card-body">
-        <div class="row">
-          <div class="col-md-6">
-            <h2>Materi praktikum </h2>
-            <ul>
-              <li>Menggunakan admin template (sbadmin2)</li>
-              <li>Membuat aplikasi create, read, update, delete, print dengan bahasa pemrograman (PHP)</li>
-              <li>Menggunakan Datatables untuk menampilkan data</li>
-              <li>Menggunakan select2 untuk menampilkan daftar select/list</li>
-              <li>Membuat fungsi print menggunakan library FPDF dan windows.print</li>
-            </ul>
-          </div>
-          <div class="col-md-6">
-            <h2>Ruang Lingkup Aplikasi</h2>
-            <ul>
-              <li>Login
-                <ul>
-                  <li>level : admin</li>
-                  <li>level : operator</li>
-                </ul>
-              </li>
-              <li>Menampilkan data dengan datatables</li>
-              <li>Fungsi simpan Data</li>
-              <li>Fungsi edit Data</li>
-              <li>Fungsi hapus berdasarkan baris data</li>
-              <li>Fungsi cetak (semua data)</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
 
