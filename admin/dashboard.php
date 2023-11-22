@@ -31,9 +31,9 @@ if (session_status() == PHP_SESSION_NONE) {
           <div class="row no-gutters align-items-center">
               <div class="list-group">
                 <a href="https://docs.google.com/spreadsheets/d/1SsYiH65S_1uWphrQEGPiL58udVpL0Py47zhaAa405Kw/edit?usp=sharing" class="list-group-item list-group-item-action">Behavior</a>
-                <a href="#" class="list-group-item list-group-item-action">Safety</a>
-                <a href="#" class="list-group-item list-group-item-action">Product Knowledge</a>
-                <a href="#" class="list-group-item list-group-item-action">Tools</a>
+                <a href="https://docs.google.com/spreadsheets/d/1BIi8Ip1YjWT1NIwE6F_ij0NIpbde01O97Ydr6ukWaQU/edit?usp=sharing" class="list-group-item list-group-item-action">Safety</a>
+                <a href="https://docs.google.com/spreadsheets/d/1uAvzFjjR-vfNs7p9mAFKS5ZWkCK-8hcgZMRdniipbXg/edit?usp=sharing" class="list-group-item list-group-item-action">Product Knowledge</a>
+                <a href="https://docs.google.com/spreadsheets/d/1wMsCUKfcfkHMi9KKEMVrffu6caDp-zwlknN31GjwHpQ/edit?usp=sharing" class="list-group-item list-group-item-action">Tools</a>
                 <a href="#" class="list-group-item list-group-item-action">Basic Mechine Element</a>
                 <a href="#" class="list-group-item list-group-item-action">Diesel Engine</a>
                 <a href="#" class="list-group-item list-group-item-action">Hydraulic System</a>
