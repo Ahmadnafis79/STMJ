@@ -18,6 +18,9 @@
   <link rel="stylesheet" href="../css/select2/dist/css/select2.min.css">
   <link rel="stylesheet" href="../css/select2/dist/css/select2-bootstrap4.min.css">
   <link rel="stylesheet" href="../css/custom.css">
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <script src="../js/apexcharts.js"></script>
+  <script src="../js/bootstrap.js"></script>
   <!-- Bootstrap CSS dan JS -->
 
 

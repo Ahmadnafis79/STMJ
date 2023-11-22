@@ -66,19 +66,7 @@ if (session_status() == PHP_SESSION_NONE) {
       </div>
     </div>
 
-    <div class="card shadow mb-4">
-    <div class="card-header py-3">
-        <h6 class="m-0 font-weight-bold text-primary">Area Chart</h6>
-    </div>
-    <div class="card-body">
-        <div class="chart-area">
-            <canvas id="myAreaChart"></canvas>
-        </div>
-        <hr>
-        Styling for the area chart can be found in the
-        <code>../js/demo/chart-area-demo.js</code> file.
-    </div>
-</div>
+
     
     ';
   }
@@ -115,6 +103,21 @@ if (session_status() == PHP_SESSION_NONE) {
     ';
   }
   ?>
+<div class="row">
+  <div class="col-6">
+    <div class="card">
+      <div class="card-header">
+        <div class="card-body">
+          <div id="chart1">
+            <h1>21231</h1>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
 
   <!-- <div class="col-xl-4 mb-4">
     <div class="card border-left-info shadow h-100 py-2">
@@ -144,3 +147,49 @@ if (session_status() == PHP_SESSION_NONE) {
     </div>
   </div>
 </div> -->
+
+<script>
+
+  var options = {
+          series: [{
+          name: "STOCK ABC",
+          data: series.monthDataSeries1.prices
+        }],
+          chart: {
+          type: 'area',
+          height: 350,
+          zoom: {
+            enabled: false
+          }
+        },
+        dataLabels: {
+          enabled: false
+        },
+        stroke: {
+          curve: 'straight'
+        },
+        
+        title: {
+          text: 'Fundamental Analysis of Stocks',
+          align: 'left'
+        },
+        subtitle: {
+          text: 'Price Movements',
+          align: 'left'
+        },
+        labels: series.monthDataSeries1.dates,
+        xaxis: {
+          type: 'datetime',
+        },
+        yaxis: {
+          opposite: true
+        },
+        legend: {
+          horizontalAlign: 'left'
+        }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chart1"), options);
+        chart.render();
+</script>
+<script src="../js/apexcharts.js"></script>
