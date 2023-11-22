@@ -74,6 +74,7 @@ if (session_status() == PHP_SESSION_NONE) {
       <div class="card-body">
         <div id="chart1">
           <canvas id="myAreaChart" width="400" height="200"></canvas>
+          sdsdsdsdd
         </div>
       </div>
     </div>
