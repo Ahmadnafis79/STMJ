@@ -30,7 +30,7 @@ if (session_status() == PHP_SESSION_NONE) {
         <div class="card-body">
           <div class="row no-gutters align-items-center">
               <div class="list-group">
-                <a href="#" class="list-group-item list-group-item-action">Behavior</a>
+                <a href="#" class="list-group-item list-group-item-action">Behaviiiiiiiiior</a>
                 <a href="#" class="list-group-item list-group-item-action">Safety</a>
                 <a href="#" class="list-group-item list-group-item-action">Product Knowledge</a>
                 <a href="#" class="list-group-item list-group-item-action">Tools</a>
