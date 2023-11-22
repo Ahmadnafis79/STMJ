@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Basic Area Chart</title>
+</head>
+<body>
+    <!-- Tempat untuk menampilkan chart -->
+    <canvas id="myAreaChart" width="400" height="200"></canvas>
+
+    <script>
+        // Data yang akan ditampilkan di chart
+        var data = {
+            labels: ["Jan", "Feb", "Mar", "Apr", "May"],
+            datasets: [{
+                label: "Monthly Sales",
+                backgroundColor: 'rgba(75, 192, 192, 0.2)', // Warna area chart
+                borderColor: 'rgba(75, 192, 192, 1)', // Warna garis chart
+                borderWidth: 1,
+                data: [10, 20, 15, 25, 30] // Data nilai
+            }]
+        };
+
+        // Konfigurasi chart
+        var options = {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        };
+
+        // Mengambil elemen canvas dan membuat chart area
+        var ctx = document.getElementById('myAreaChart').getContext('2d');
+        var myAreaChart = new Chart(ctx, {
+            type: 'line',
+            data: data,
+            options: options
+        });
+    </script>
+</body>
+</html>

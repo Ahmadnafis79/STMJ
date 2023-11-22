@@ -66,6 +66,22 @@ if (session_status() == PHP_SESSION_NONE) {
       </div>
     </div>
 
+    <div class="col-12">
+    <div class="card border-left-success shadow h-100 py-2">
+      <div class="card-header">
+        Grafik
+      </div>
+      <div class="card-body">
+        <div id="chart1">
+          <canvas id="myAreaChart" width="400" height="200"></canvas>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+</div>
+
 
     
     ';
@@ -103,13 +119,13 @@ if (session_status() == PHP_SESSION_NONE) {
     ';
   }
   ?>
-<div class="row">
+<!-- <div class="row">
   <div class="col-6">
     <div class="card">
       <div class="card-header">
         <div class="card-body">
           <div id="chart1">
-            <h1>21231</h1>
+          <canvas id="myAreaChart" width="400" height="200"></canvas>
           </div>
 
         </div>
@@ -117,7 +133,7 @@ if (session_status() == PHP_SESSION_NONE) {
     </div>
   </div>
 
-</div>
+</div> -->
 
   <!-- <div class="col-xl-4 mb-4">
     <div class="card border-left-info shadow h-100 py-2">
@@ -148,48 +164,48 @@ if (session_status() == PHP_SESSION_NONE) {
   </div>
 </div> -->
 
-<script>
 
-  var options = {
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Basic Area Chart</title>
+</head>
+<body>
+
+    <script>
+
+      
+var options = {
           series: [{
-          name: "STOCK ABC",
-          data: series.monthDataSeries1.prices
+          name: 'series1',
+          data: [31, 40, 28, 51, 42, 109, 100]
+        }, {
+          name: 'series2',
+          data: [11, 32, 45, 32, 34, 52, 41]
         }],
           chart: {
-          type: 'area',
           height: 350,
-          zoom: {
-            enabled: false
-          }
+          type: 'area'
         },
         dataLabels: {
           enabled: false
         },
         stroke: {
-          curve: 'straight'
+          curve: 'smooth'
         },
-        
-        title: {
-          text: 'Fundamental Analysis of Stocks',
-          align: 'left'
-        },
-        subtitle: {
-          text: 'Price Movements',
-          align: 'left'
-        },
-        labels: series.monthDataSeries1.dates,
         xaxis: {
           type: 'datetime',
+          categories: ["2018-09-19T00:00:00.000Z", "2018-09-19T01:30:00.000Z", "2018-09-19T02:30:00.000Z", "2018-09-19T03:30:00.000Z", "2018-09-19T04:30:00.000Z", "2018-09-19T05:30:00.000Z", "2018-09-19T06:30:00.000Z"]
         },
-        yaxis: {
-          opposite: true
+        tooltip: {
+          x: {
+            format: 'dd/MM/yy HH:mm'
+          },
         },
-        legend: {
-          horizontalAlign: 'left'
-        }
         };
 
         var chart = new ApexCharts(document.querySelector("#chart1"), options);
         chart.render();
-</script>
-<script src="../js/apexcharts.js"></script>
+      
+      
+    
+    </script>
+</body>
