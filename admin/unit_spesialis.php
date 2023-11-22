@@ -342,32 +342,33 @@
 
   <div class="col-xl-2 mb-4">
     <div class="card border-left-info shadow h-100 py-2">
-      <div class="card-body shadow">
+      <div class="card-body shadow ">
         <div class="row no-gutters align-items-center mb-3">
           <div class="col mr-2">
-          <li class="nav-item">
-    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#dataMahasiswa" aria-expanded="true" aria-controls="dataMahasiswa">
-      <i class="fas fa-fw fa-user-graduate"></i>
-      <span>Unit Spesialis</span>
-    </a>
+          <div class="row no-gutters align-items-center">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#dataBW" aria-expanded="true" aria-controls="dataBW">
+          <span>BW</span>
+        </a>
 
-  </li>
+      </div>
           </div>
           <div class="col-auto">
             <i class="fas fa-user fa-2x text-gray-300"></i>
           </div>
         </div>
-      </div>
-    </div>
-    <div id="dataMahasiswa" class="collapse" aria-labelledby="dataMahasiswa" data-parent="#accordionSidebar">
-      <div class="card border-left-info shadow h-100 py-2">
-        <a class="collapse-item" href="?page=mahasiswa-show">Data Mahasiswa</a>
-        <a class="collapse-item" href="?page=mahasiswa-add">Input Data</a>
+        <div id="dataBW" class="collapse" aria-labelledby="dataBW" data-parent="#accordionSidebar">
+            <div class="bg-gray-300 py-2 collapse-inner rounded">
+              <li><a class="collapse-item" href="#">PK</a></li>
+              <li><a class="collapse-item" href="#">PM</a></li>
+              <li><a class="collapse-item" href="#">RI</a></li>
+              <li><a class="collapse-item" href="#">OV</a></li>
+              <li><a class="collapse-item" href="#">MTS</a></li>
+            </div>
+          </div>
       </div>
     </div>
   </div>
-</div>
-  </div>
+
 
 
 
