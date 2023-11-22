@@ -59,7 +59,7 @@ if (session_status() == PHP_SESSION_NONE) {
                 <a href="https://docs.google.com/spreadsheets/d/1KL9GwV3xUYEDDqG9qZgRWr2EmnSfC0jP6B0q6skhcvY/edit#gid=0" class="list-group-item list-group-item-action">Basic Remove Install</a>
                 <a href="https://docs.google.com/spreadsheets/d/1MjRjW4mVwAO1Rhnczk5dZtR7axG1VioKfSDuPdAUz8o/edit#gid=0" class="list-group-item list-group-item-action">Basic Troubleshooting</a>
                 <a href="https://docs.google.com/spreadsheets/d/18ZWfpU3rQB1VlxvUgzRHD0aPTLlrJDDkmSro_qFBaIA/edit#gid=0" class="list-group-item list-group-item-action">Basic Maintenance</a>
-                <a href="https://docs.google.com/spreadsheets/d/1xFidTWzC5R-LwiPhZPdn1g_uW0hwXUIvw7WqOWs6A9k/edit#gid=0" class="list-group-item list-group-item-action">Partboot Reading</a>
+                <a href="https://docs.google.com/spreadsheets/d/1xFidTWzC5R-LwiPhZPdn1g_uW0hwXUIvw7WqOWs6A9k/edit#gid=0" class="list-group-item list-group-item-action">Partbook Reading</a>
               </div>
           </div>
         </div>
