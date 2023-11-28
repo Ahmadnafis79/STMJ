@@ -17,6 +17,7 @@ if (session_status() == PHP_SESSION_NONE) {
   }
   ?>
 
+
 <?php
 if (session_status() == PHP_SESSION_NONE) {
   session_start();
@@ -26,11 +27,11 @@ if (session_status() == PHP_SESSION_NONE) {
     echo '
  
     <div class="col-xl-6 mb-4">
-      <div class="card border-left-primary shadow h-100 py-2">
-        <div class="card-body">
+      <div class="card border-left-primary shadow h-100 py-2 ">
+        <div class="card-body mx-3">
           <div class="row no-gutters align-items-center">
               <div class="list-group">
-                <a href="https://docs.google.com/spreadsheets/d/1SsYiH65S_1uWphrQEGPiL58udVpL0Py47zhaAa405Kw/edit?usp=sharing" class="list-group-item list-group-item-action">Behavior</a>
+                <a href="?page=ut-school-behavior" class="list-group-item list-group-item-action">Behavior</a>
                 <a href="https://docs.google.com/spreadsheets/d/1BIi8Ip1YjWT1NIwE6F_ij0NIpbde01O97Ydr6ukWaQU/edit?usp=sharing" class="list-group-item list-group-item-action">Safety</a>
                 <a href="https://docs.google.com/spreadsheets/d/1uAvzFjjR-vfNs7p9mAFKS5ZWkCK-8hcgZMRdniipbXg/edit?usp=sharing" class="list-group-item list-group-item-action">Product Knowledge</a>
                 <a href="https://docs.google.com/spreadsheets/d/1wMsCUKfcfkHMi9KKEMVrffu6caDp-zwlknN31GjwHpQ/edit?usp=sharing" class="list-group-item list-group-item-action">Tools</a>
@@ -48,7 +49,7 @@ if (session_status() == PHP_SESSION_NONE) {
 
     <div class="col-xl-6 mb-4">
       <div class="card border-left-primary shadow h-100 py-2">
-        <div class="card-body">
+        <div class="card-body mx-3">
           <div class="row no-gutters align-items-center">
               <div class="list-group">
                 <a href="https://docs.google.com/spreadsheets/d/1oxaP2e3gxbPzHGP5s_8o2fyEf7pgEDjNAV3Xq5hn4XI/edit#gid=0" class="list-group-item list-group-item-action">Steering & Brake System</a>

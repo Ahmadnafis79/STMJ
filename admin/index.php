@@ -104,6 +104,30 @@ include '../template/header.php';
               include '../dosen/print3.php';
               break;
 
+            case 'ut-school-behavior':
+              $title = 'Behavior';
+              include '../ut_school/behavior.php';
+              break;
+            case 'dosen-add':
+              $title = 'Input Data Dosen';
+              include '../dosen/add.php';
+              break;
+            case 'dosen-delete':
+              include '../dosen/delete.php';
+              break;
+            case 'dosen-edit':
+              $title = 'Edit Data Dosen';
+              include '../dosen/edit.php';
+              break;
+            case 'dosen-print':
+              include '../dosen/print.php';
+              break;
+            case 'dosen-print2':
+              include '../dosen/print2.php';
+              break;
+            case 'dosen-print2':
+              include '../dosen/print3.php';
+              break;
 
             case 'user-show':
               $title = 'Data User';
